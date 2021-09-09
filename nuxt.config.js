@@ -3,7 +3,7 @@ require('dotenv').config()
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'balance-example',
+    title: process.env.SERVER,
     htmlAttrs: {
       lang: 'en'
     },
